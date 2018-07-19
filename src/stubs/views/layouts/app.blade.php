@@ -18,6 +18,8 @@
 </head>
 <body class="font-sans antialiased text-black leading-tight">
     <div id="app">
+        @include('partials.nav')
+
         @yield('content')
     </div>
 </body>
